@@ -79,8 +79,8 @@
     background: linear-gradient(
         236.22deg,
         #ff3c47 -3.32%,
-        #bcee50 15.86%,
-        #32e2ed 73.4%
+        #846b42 15.86%,
+        #ed9932 73.4%
     );
     filter: blur(212px);
 }
@@ -93,7 +93,7 @@
 }
 
 .sec-2-p-e-2 {
-    width: 93px;
+    width: 123px;
     top: 600px;
     left: -50px;
     position: absolute;

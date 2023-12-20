@@ -90,13 +90,12 @@ const Skills = () => {
                     <Service
                             num="1"
                             title="Web Sloution Services"
-                            desc="I specialize in crafting innovative solutions tailored to your needs. Leveraging the power of cutting-edge technologies and stacks such as MERN (MongoDB, Express.js, React, Node.js), Asp.Net, and robust CI/CD pipelines, I am well-equipped to deliver seamless and efficient systems. Whether you require a dynamic CRM system, a comprehensive ERP solution, or any other web-based application, I have the expertise to bring your vision to life."
+                            desc="I specialize in crafting innovative solutions tailored to your needs. Leveraging the power of cutting-edge technologies and stacks such as MERN (MongoDB, Express.js, React, Node.js), and robust CI/CD pipelines, I am well-equipped to deliver seamless and efficient systems. Whether you require a dynamic CRM system, a comprehensive ERP solution, or any other web-based application, I have the expertise to bring your vision to life."
                             data={[
-                                "MERN Stack",
-                                "Asp.Net",
-                                "ci/cd pipeline",
-                                "CRM",
-                                "ERP",
+                                "Javascript",
+                                "MySQL",
+                                "CSS3",
+                                "HTML5",
                             ]}
                         />
                                                 <Service
@@ -104,8 +103,7 @@ const Skills = () => {
                             title="Software Construction and Development"
                             desc="I am highly skilled at solving problems through software development. I use coding, testing, and debugging to create effective solutions."
                             data={[
-                                "MCV Architecture",
-                                "JAVA ",
+                                "MVC Architecture",
                                 "Junit Testing",
                                 "Design patterns",
                                 "Design to code",
@@ -115,30 +113,18 @@ const Skills = () => {
                          <Service
                             num="3"
                             title="App Development"
-                            desc="Expertise in Java, Kotlin, MVVM architecture, REST APIs, and seamless MAPS integration. Join me to craft apps that redefine user experiences and solve real-world challenges."
+                            desc="Expertise in Java, REST APIs, and seamless MAPS integration. Join me to craft apps that redefine user experiences and solve real-world challenges."
                             data={[
                                 "Java",
-                                "Kotlin",
-                                "MVVM Architecture",
+                                "Python",
                                 "REST API'S",
                                 "MAPS Integration",
                             ]}
                         />
 
-                        <Service
-                            num="4"
-                            title="Python Data AI"
-                            desc="I excel in data analysis, AI bots, problem-solving, data handling, visualization, and regression modeling. Let's bring data to life and find optimal solutions together."
-                            data={[
-                                "Data Analysis",
-                                "AI Bots",
-                                "Best problem sloutions",
-                                "Data Handling & Visualisation",
-                                "Regression Modelings & Opreations Research",
-                            ]}
-                        />
+
                                                 <Service
-                            num="5"
+                            num="4"
                             title="Ui/Ux Design"
                             desc="I specialize in making user experiences exciting. Using strong design principles, I enhance digital products with prototypes, wireframes, research, and beautiful UI designs. Let's work together to create impressive designs that users will love."
                             data={[

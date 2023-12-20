@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Wrapper from "./Wrapper";
-import man from "../assets/rizwan.png";
+import man from "../assets/headshot.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
@@ -58,7 +58,7 @@ const HeroBanner = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>muhammadrizwanse23@gmail.com</div>
+                        <div>abhishekkalkha@gmail.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px]">
                         <li
@@ -97,9 +97,9 @@ const HeroBanner = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="text-[50px] md:text-[120px] 2xl:text-[120px] leading-[50px] md:leading-[125px]  2xl:leading-[140px] font-oswald uppercase">
-                        I Am A Software
-                        <br className="invisible md:visible" />
-                        Engineer
+                        
+                    👋 Hi, I Am{" "}
+                        <span className="font-semibold">Abhishek,</span>
                     </h1>
                 </motion.div>
                 {/* BIG HEADING END */}
@@ -112,8 +112,7 @@ const HeroBanner = () => {
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
                     <div className="font-light mb-4">
-                        👋 Hi, I Am{" "}
-                        <span className="font-semibold">Muhammad Rizwan,</span>
+                    I am a Software Engineer.
                     </div>
                     <div className="max-w-[510px]">
                     a passionate and results-driven software engineer with a keen eye for detail and a strong commitment to delivering high-quality problem sloution.
@@ -131,7 +130,7 @@ const HeroBanner = () => {
                 >
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">25+</div>
+                        <div className="text-[80px] font-light">5+</div>
                         <div className="leading-[22px]">
                             SUCCESSFULLY
                             <br />
@@ -144,7 +143,7 @@ const HeroBanner = () => {
 
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">2+</div>
+                        <div className="text-[80px] font-light">1+</div>
                         <div className="leading-[22px]">
                             YEARS OF
                             <br />
